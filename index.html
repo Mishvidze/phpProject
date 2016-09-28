@@ -1,0 +1,166 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="applicationDiv">
+        <div id="startingDiv">
+             <button type="button">Offline</button>
+             <span id="diffUI">difficulty:</span> <input id="difficulty" type="range"
+                value="50"
+                max="100"
+                >
+             <button type="button">Online</button>
+             <!--<button type="button">Log Out</button>-->
+         </div>
+        <div id="gameBordDiv">
+            <div id="item1nTimer">
+                <div id="item1" class="player">
+                    <div><span id="Player3Name">Player 3</span> <span id="player1Score" class="red">score: 0</span></div>
+                    <div class="twoCards">
+                        <!---->
+                        <div class="card">
+                            <div class="cardHalf"></div>
+                            <div class="cardHalf"></div>
+                        </div>
+                        <!---->
+                        <div class="card">
+                            <div class="cardHalf"></div>
+                            <div class="cardHalf"></div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+                <div id="timer">
+                    00
+                </div>
+            </div>
+            <div class="item23">
+                <div id="item2" class="player">
+                    <div><span id="Player2Name">Player 2</span> <span id="player2Score" class="red">score: 0</span></div>
+                    <div class="twoCards">
+                        <!---->
+                        <div class="card">
+                            <div class="cardHalf"></div>
+                            <div class="cardHalf"></div>
+                        </div>
+                        <!---->
+                        <div class="card">
+                            <div class="cardHalf"></div>
+                            <div class="cardHalf"></div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+                <!---->
+                <div class="cards7">
+                    <!---->
+                    <div class="card">
+                        <div class="cardHalf upper"></div>
+                        <div class="cardHalf lower"></div>
+                    </div>
+                    <!---->
+                    <div class="card">
+                        <div class="cardHalf upper"></div>
+                        <div class="cardHalf lower"></div>
+                    </div>
+                    <!---->
+                    <div class="card">
+                        <div class="cardHalf upper"></div>
+                        <div class="cardHalf lower"></div>
+                    </div>
+                    <!---->
+                    <div class="card">
+                        <div class="cardHalf upper"></div>
+                        <div class="cardHalf lower"></div>
+                    </div>
+                    <!---->
+                    <div class="card">
+                        <div class="cardHalf upper"></div>
+                        <div class="cardHalf lower"></div>
+                    </div>
+                    <!---->
+                    <div class="card">
+                        <div class="cardHalf upper"></div>
+                        <div class="cardHalf lower"></div>
+                    </div>
+                    <!---->
+                    <div class="card">
+                        <div class="cardHalf upper"></div>
+                        <div class="cardHalf lower"></div>
+                    </div>
+
+                </div>
+                <!---->
+                <div id="item3" class="player">
+                    <div><span id="Player4Name">Player 4</span> <span id="player2Score" class="red">score: 0</span></div>
+                    <div class="twoCards">
+                        <!---->
+                        <div class="card">
+                            <div class="cardHalf"></div>
+                            <div class="cardHalf"></div>
+                        </div>
+                        <!---->
+                        <div class="card">
+                            <div class="cardHalf"></div>
+                            <div class="cardHalf"></div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+            </div>
+            <div class="item4Nhalfcard7">
+                <div class="halfCards7">
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1"/>
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1"/>
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1"/>
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1"/>
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1"/>
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1" />
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1"/>
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1"/>
+                    <input type="text" name="name" value="" class="cardHalf" maxlength="1"/>
+                </div>
+
+                <div style="margin-top:5px;">
+                    <button type="button" id="buttonOk">Ok</button>
+                    <button type="button" id="buttonClear">Clear</button>
+                </div>
+
+                <div id="item4" class="player">
+                    <div><span id="Player1Name">Player 1</span> <span id="player4Score" class="red">score: 0</span></div>
+                    <div class="twoCards">
+                        <!---->
+                        <div class="card">
+                            <div class="cardHalf upper"></div>
+                            <div class="cardHalf lower"></div>
+                        </div>
+                        <!---->
+                        <div class="card">
+                            <div class="cardHalf upper"></div>
+                            <div class="cardHalf lower"></div>
+                        </div>
+                        <!---->
+                    </div>
+                </div>
+                <!---->
+            </div>
+            <!---->
+        </div>
+    </div>
+    <!---->
+    <script src="scripts/buttonManipulation.js"></script>
+    <script src="scripts/generalArrayAlgs.js"></script>
+    <script src="scripts/data/letters.js"></script>
+    <script src="scripts/data/Allwords.js"></script>
+    <script src="scripts/AIworker.js"></script>
+    <script src="scripts/player.js"></script>
+    <script src="scripts/mainJS.js"></script>
+</body>
+</html>

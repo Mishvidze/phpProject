@@ -1,0 +1,210 @@
+﻿body {
+    background-color: #111010;
+    /*background-color: white;*/
+}
+
+#startingDiv {
+    background-color: orange;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    /**/
+    display: -webkit-flex;
+    display: flex;
+    /**/
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /**/
+    justify-content: space-around;
+    align-items: center;
+}
+
+    #startingDiv button {
+        background-color: #292727;
+        color: white;
+        width: 200px;
+        height: 60px;
+        border-radius: 15px;
+        font-size: x-large;
+        transition: color 1s;
+        transition: background-color 1s;
+        /**/
+    }
+
+        #startingDiv button:hover {
+            background-color: black;
+            color: orange;
+        }
+
+#gameBordDiv {
+    background-color: orange;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    display: none;
+    /**/
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /**/
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.player {
+    border-radius: 15px;
+    margin: 10px;
+    background-color: black;
+    width: 160px;
+    height: 120px;
+    /**/
+    display: -webkit-flex;
+    display: flex;
+    /**/
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /**/
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards7 {
+    border-radius: 15px;
+    background-color: black;
+    padding: 20px;
+    /**/
+    display: -webkit-flex;
+    display: flex;
+    /**/
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    /**/
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.halfCards7 {
+    border-radius: 15px;
+    background-color: black;
+    width: 625px;
+    padding: 20px;
+    /**/
+    display: -webkit-flex;
+    display: flex;
+    /**/
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    /**/
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.cardHalf {
+    margin: 5px;
+    margin-top: -4px;
+    width: 55px;
+    height: 40px;
+    background-color: white;
+}
+
+.card {
+    float: left;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.twoCards {
+    height: 90px;
+    width: 136px;
+    /**/
+    display: -webkit-flex;
+    display: flex;
+    /**/
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /**/
+    flex-wrap: nowrap;
+}
+
+#item1nTimer{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+
+}
+#timer{
+    font-size:100px;
+    padding: 20px;
+    
+    align-self: flex-end;
+}
+
+#item1 {
+     margin: 10px auto;
+    margin-right: 290px;    
+}
+
+
+.item23 {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.hide {
+    display: none;
+}
+
+.player div {
+    color: white;
+    display: block;
+    flex: 2;
+}
+
+.item4Nhalfcard7 {
+    /**/
+    display: -webkit-flex;
+    display: flex;
+    /**/
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    /**/
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards7 .cardHalf {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+#item4 .twoCards .card .cardHalf {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.item4Nhalfcard7 .halfCards7 input {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.red{
+    color: red;
+}
+
+#diffUI{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
